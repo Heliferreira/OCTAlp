@@ -1,21 +1,21 @@
 :root {
-  --ink: #16262B;
-  --ink-soft: #3E5257;
-  --bg: #EFF6F1;
-  --bg-alt: #FBF8F2;
+  --ink: #1D162B;
+  --ink-soft: #443B57;
+  --bg: #F8F5FC;
+  --bg-alt: #FCF8F2;
   --white: #FFFFFF;
   --coral: #FF6B4E;
   --coral-dark: #E5502F;
-  --teal: #0E6B64;
-  --teal-dark: #0A4E49;
+  --teal: #7C3AED;        /* Roxo vibrante (antigo verde) */
+  --teal-dark: #3B1C5A;   /* Roxo escuro (antigo verde escuro) */
   --lavender: #B9A6E8;
   --lavender-soft: #EDE7FA;
   --sun: #FFC857;
-  --line: #D8E4DD;
+  --line: #E8DFF5;        /* Borda suavizada para o tom roxo */
   --radius-s: 14px;
   --radius-m: 22px;
   --radius-l: 34px;
-  --shadow: 0 18px 40px -20px rgba(14, 107, 100, 0.35);
+  --shadow: 0 18px 40px -20px rgba(59, 28, 90, 0.35); /* Sombra em tom roxo */
   --maxw: 1160px;
 }
 
