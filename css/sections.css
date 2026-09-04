@@ -19,7 +19,7 @@ header.nav.scrolled { border-color: var(--line); box-shadow: 0 6px 24px -18px rg
   opacity: 0.65; 
   z-index: 1; 
   pointer-events: none; 
-  animation: floatTentacle 8s ease-in-out infinite alternate; 
+  animation: floatTentacle 20s ease-in-out infinite alternate; 
 }
 .hero-inner { position: relative; z-index: 2; display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; align-items: center; }
 .hero h1 { font-size: clamp(2.3rem, 4.2vw, 3.6rem); color: var(--teal-dark); max-width: 12ch; }
