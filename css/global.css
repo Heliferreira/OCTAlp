@@ -1,21 +1,31 @@
 :root {
-  /* Paleta Humana e Orgânica (Sem visual Neon/IA) */
-  --teal-dark: #2B1542;   /* Roxo Abissal suavizado para texto/títulos, evitando contraste agressivo */
-  --teal: #6B3BA7;        /* Roxo Elétrico ajustado para visual mais acolhedor e editorial */
-  --lavender: #A855F7;    /* Violeta Névoa para ícones e detalhes suaves */
-  --bg: #F8F5EE;          /* Marfim Espuma como fundo da página (leitura quente e confortável) */
-  --bg-alt: #F0EAE1;      /* Tom marfim levemente mais escuro para cards secundários */
-  --sun: #FACC15;         /* Amarelo Vivo para detalhes de destaque */
-  --coral: #E0A812;       /* Amarelo Ouro/Fechado para botões e CTAs, mantendo ótima legibilidade */
-  --coral-dark: #C6930E;  /* Tom escuro para hover dos botões */
-  --ink: #1F1528;         /* Texto principal escuro e legível */
-  --ink-soft: #4A3E56;    /* Texto secundário suave */
-  --white: #FFFFFF;
-  --line: #E2D9CB;        /* Linhas e bordas quentes */
+  /* Cores de Destaque e Acentos */
+  --teal-dark: #0E262B;   /* Texto principal e títulos com alto contraste em fundo claro */
+  --teal: #8B5CF6;        /* Violeta/Roxo elétrico para destaques */
+  --lavender: #C084FC;    /* Violeta Névoa para ícones e detalhes */
+
+  /* Fundos Claros */
+  --bg: #F4F8F5;          /* Fundo suave principal */
+  --bg-alt: #EFE6F6;      /* Fundo suave lilás para cards e seções secundárias */
+  --white: #FFFFFF;       /* Fundo branco puro para cartões e containers */
+
+  /* Cores de Destaque / CTAs */
+  --sun: #FACC15;         /* Amarelo Vivo para detalhes */
+  --coral: #E0A812;       /* Destaque principal para botões e CTAs */
+  --coral-dark: #C6930E;  /* Tom para hover dos botões */
+
+  /* Textos */
+  --ink: #1E293B;         /* Texto principal claro e legível */
+  --ink-soft: #475569;    /* Texto secundário em cinza suave */
+
+  /* Bordas e Sombras */
+  --line: rgba(14, 38, 43, 0.1); /* Linhas sutis para superfícies claras */
+
+  /* Dimensões e Efeitos */
   --radius-s: 14px;
   --radius-m: 22px;
   --radius-l: 34px;
-  --shadow: 0 18px 40px -20px rgba(43, 21, 66, 0.25);
+  --shadow: 0 18px 40px -20px rgba(14, 38, 43, 0.12);
   --maxw: 1160px;
 }
 
